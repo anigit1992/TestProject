@@ -97,20 +97,18 @@ header{
 
 
 nav{display: flex;
-	flex-flow:wrap;
-	align-items: flex-start;
 	background-color:#333333;
-	margin: 0 20px;
-}
+	margin: 0 20px
+	margin-right:20px; }
 
 nav a{
-
 	display:inline-block;
 	padding: 15px 20px;
 	color: #999999;
 	font:bold 12px Georgia;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+
 }
 nav a:hover{
 	display:inline-block;
