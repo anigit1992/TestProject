@@ -21,14 +21,12 @@ input:fokus{
 	padding: 20px;
 }
 
-
 .top{
 	background: #000000;
 	display:-webkit-flex;
 	display:flex;
 	flex-direction: column;
 	align-items: flex-end;
-
 
 }
 
@@ -49,10 +47,9 @@ input:fokus{
 	font-family: Verdana;
 	font-size: 12px;
 	text-transform: capitalize;
-
-
 }
-.top div a:not(:last-child){
+
+.top div a:not(:last-child) {
 	border-right: 1px solid #4f4f4f;}
 
 
@@ -92,9 +89,37 @@ input:fokus{
 	border: none;
 }
 
-
-
 header{
 
 	background: #1c1c1c;
+	padding-bottom: 25px;
+}
+
+
+nav{display: flex;
+	flex-flow:wrap;
+	align-items: flex-start;
+	background-color:#333333;
+	margin: 0 20px;
+}
+
+nav a{
+
+	display:inline-block;
+	padding: 15px 20px;
+	color: #999999;
+	font:bold 12px Georgia;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+nav a:hover{
+	display:inline-block;
+	padding: 15px 20px;
+	background: #050505;
+
+}
+
+nav a:not(:last-child) {
+	border-right: 2px solid #050505;
+
 }
