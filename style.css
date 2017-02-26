@@ -1,7 +1,6 @@
 *{
 	margin: 0px;
 	padding: 0px;
-
 }
 *:focus {
 	outline: none;
@@ -10,30 +9,24 @@ button{
 	background: none;
 	border: none;
 }
-
 a{
 	text-decoration: none;
 }
-
-input:fokus{
+input:focus{
 	outline: none;
 }
-
 .wrapper{
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 20px;
 }
-
 .top{
 	background: #000000;
 	display:-webkit-flex;
 	display:flex;
 	flex-direction: column;
 	align-items: flex-end;
-
 }
-
 .top div{
 	max-width: 500px;
 	border-radius: 20px 20px 0 0;
@@ -52,29 +45,23 @@ input:fokus{
 	font-size: 12px;
 	text-transform: capitalize;
 }
-
 .top div a:not(:last-child) {
-	border-right: 1px solid #4f4f4f;}
-
-
+	border-right: 1px solid #4f4f4f;
+}
 .logo-part{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 40px 20px;}
-
 .logo {
 	font:bold 32px Georgia Arial;
 	color: #999999;
 	line-height: 13px;
-
 }
-
 .logo span{
 	font-size:12px;
 	font-weight: normal;
 }
-
 .logo-part form{
 	display: flex;
 	justify-content: space-between;
@@ -92,19 +79,14 @@ input:fokus{
 	background-color: #333333;
 	border: none;
 }
-
 header{
-
 	background: #1c1c1c;
 	padding-bottom: 25px;
 }
-
-
 nav{display: flex;
 	background-color:#333333;
-	margin: 0 20px
+	margin: 0 20px;
 	margin-right:20px; }
-
 nav a{
 	display:inline-block;
 	padding: 15px 20px;
@@ -112,30 +94,21 @@ nav a{
 	font:bold 12px Georgia;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-
 }
 nav a:hover{
 	display:inline-block;
 	padding: 15px 20px;
 	background: #050505;
-
 }
-
 nav a:not(:last-child) {
 	border-right: 2px solid #050505;
-
 }
-
 .slide {
 	max-width: 1000px;
 	height: 454px;
 	background-image: url(images/cover.jpg);
 	background-size: cover;
-	margin:
-
 }
-
-
 .slide-description{
 	max-width: 32%;
 	height: 454px;
@@ -149,7 +122,6 @@ nav a:not(:last-child) {
 }
 .slide-description button{
 	padding: 28px 5px;
-
 }
 .slide-description p{
 	height: 240px;
@@ -160,7 +132,6 @@ nav a:not(:last-child) {
 .slide-description h2{
 	padding-bottom:25px;
 }
-
 .Latest-from input, .slide-description input{
 	background: none;
 	border:none;
@@ -173,7 +144,6 @@ nav a:not(:last-child) {
 	padding:34px;
 	display: block;
 	width: 100px;
-
 }
 section{
 	padding: 40px 20px 20px;
@@ -192,21 +162,17 @@ section{
 .gallery img{
 	width: 100%;
 	height: 150px;
-
 }
-.gallery p, .Finde{
+.gallery p, .find{
 	color: #999999;
-
 	background: #141414;
 	padding: 20px;
 	text-transform: capitalize;
 	border-bottom: 2px solid #000000;
-
 }
-.Finde{
+.find{
 	font-size: 22px;
 	margin:-20px;
-
 }
 footer{
 	background: #1c1c1c;
@@ -218,14 +184,11 @@ footer{
 .Latest-from{
 	max-width: 280px;
 	position: relative;
-
-
 }
 .link{
 	max-width: 240px;
 	display: flex;
 	flex-direction: column;
-
 }
 .link a, footer p{
 	padding: 20px 0 10px;
@@ -233,7 +196,6 @@ footer{
 	font: 13px Georgia;
 	text-transform: capitalize;
 	letter-spacing: 1px;
-
 	line-height: 15.6px;
 }
 .link a{
@@ -244,8 +206,6 @@ footer{
 }
 .contact{
 	max-width: 210px;
-
-
 }
 h1{
 	color: #8d8d8d;
@@ -260,7 +220,6 @@ h3{
 	font:18px Georgia;
 	letter-spacing: 2px;
 	line-height: 21.6px;
-
 }
 h4{
 	color: #444444;
@@ -268,22 +227,18 @@ h4{
 	text-transform: capitalize;
 	letter-spacing: 1px;
 	line-height: 13.2px;
-
 }
-
 h6{
 	color: #444444;
 	font:11px Georgia;
 	letter-spacing: 1px;
 	line-height: 13.2px;
-
 }
 .Latest-from input{
 	background: none;
 	border:none;
 	color: #ffffff;
 	font: 16px Georgia;
-
 }
 .contact p{
 	padding: 2px 0px 20px;
@@ -293,13 +248,11 @@ h6{
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
-
 }
 .end{
 	background: #1c1c1c;
 	display: flex;
 	justify-content: space-between;
-
 }
 .end p{
 	color: #444444;
